@@ -1,0 +1,67 @@
+$base:100px;
+@function px2rem($px){
+  @return $px/$base *1rem;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	list-style:none;
+	text-decoration:none;
+}
+body,html{
+	font-size:100px;
+}
+@font-face {font-family: "iconfont";
+          src: url('../../font/iconfont.eot'); /* IE9*/
+          src: url('../../font/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../../font/iconfont.woff') format('woff'), /* chrome, firefox */
+          url('../../font/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+          url('../../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+          font-family:"iconfont" !important;
+          font-size:20px;
+          font-style:normal;
+          -webkit-font-smoothing: antialiased;
+          -webkit-text-stroke-width: 0.2px;
+          -moz-osx-font-smoothing: grayscale;
+          color:#fff;
+          float:right;
+          margin-right:px2rem(10px);
+          margin-top:px2rem(15px);
+          font-weight:bold;
+ }
+.header{
+	width: 100%;
+	height: px2rem(50px);
+	font-size:px2rem(16px);
+	background: #1E2634;
+	.logo_mtime{
+		width:px2rem(80px);
+		height:px2rem(50px);
+		background:url(//static1.mtime.cn/html5/20171122155850/images/2014/logo_mtime.png) no-repeat;
+		background-size:px2rem(70px) px2rem(20px);
+		background-position:px2rem(5px) px2rem(15px);
+		display:inline-block;
+		float:left;
+	}
+	.header_nav{
+		display:inline-block;
+		margin-left:px2rem(20px);
+		.nav_item{
+			width:px2rem(50px);
+			height:px2rem(50px);
+			line-height:px2rem(50px);
+			text-align:center;
+			display:inline-block;
+			a{
+				display:inline-block;
+				height:px2rem(50px);
+				color:#92b2bb;
+			}
+		}
+	}
+}
+
+
