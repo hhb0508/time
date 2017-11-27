@@ -1,0 +1,25 @@
+$base:100px;
+@function px2rem($px){
+  @return $px/$base *1rem;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.footer{
+    width:100%;
+    position:fixed;
+    left:0;
+    bottom:0;
+    .footer_nav{
+        width:100%;
+        height:px2rem(50px);
+        display:flex;
+        jusity-content:space-between;
+        .footer_nav_item{
+            width:20%;
+            height:px2rem(50px);
+            line-height:px2rem(50px);
+        }
+    }
+}
