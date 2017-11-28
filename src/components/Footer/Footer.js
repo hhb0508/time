@@ -23,7 +23,7 @@ class Footer extends Component{
                     <li className="footer_tools_item">帮助中心</li>
                 </ul>
                 <div className="mtime_info">
-                    <span>{url(//static1.mtime.cn/html5/20171122155850/images/2014/fot_logo.png) no-repeat center center}</span>
+                    <span></span>
                     <p>Copyright 2006-2017 Mtime.com Inc.All rights reserved.</p>
 
                 </div>

@@ -9,6 +9,7 @@ class App extends Component{
         <div className="box">
             <Header></Header>
             <Searchipt></Searchipt>
+            <Footer></Footer>
         </div>
       );
   }
