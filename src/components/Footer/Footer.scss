@@ -7,11 +7,11 @@ $base:100px;
     margin:0;
     padding:0;
 }
+body,html{
+  font-size:100px;
+}
 .footer{
     width:100%;
-    position:fixed;
-    left:0;
-    bottom:0;
     font-size: px2rem(16px);
     .footer_nav{
         width:100%;
@@ -19,34 +19,43 @@ $base:100px;
         display:flex;
         justify-content:space-between;
         .footer_nav_item{
+            text-align: center;
             width:20%;
             height:px2rem(50px);
             line-height:px2rem(50px);
+            color:#0074c5;
         }
     }
     .footer_tools{
         width:100%;
         height:px2rem(50px);
         background:#f6f6f6;
-        .footer_tools_item{
-          color:#333;
-          padding:px2rem(15px) px2rem(10px);
-          display:inline-block;
-        }
-        .mtime_info{
-          width:100%;
-          height:px2rem(60px);
-          background:#f6f6f6;
-          span{
-            display:block;
-            background:url(//static1.mtime.cn/html5/20171122155850/images/2014/fot_logo.png) no-repeat center center;
-          }
-          p{
-            width:100%;
-            height:px2rem(15px);
-            text-align: center;
-            color:#333;
-          }
+        .footer_tools_item {
+          color: #333;
+          width:25%;
+          text-align: center;
+          padding: px2rem(15px) px2rem(10px);
+          display: inline-block;
+          font-size:px2rem(14px);
         }
     }
+  .mtime_info{
+    width:100%;
+    height:px2rem(60px);
+    background:#f6f6f6;
+    .footer_logo{
+      display:block;
+      width:100%;
+      height:px2rem(30px);
+      background:url(//static1.mtime.cn/html5/20171122155850/images/2014/fot_logo.png) no-repeat center center;
+      background-size:px2rem(50px) px2rem(20px);
+    }
+    p{
+      width:100%;
+      height:px2rem(30px);
+      text-align: center;
+      color:#e1e1e1;
+      font-size:px2rem(12px);
+    }
+  }
 }

@@ -9,6 +9,7 @@ class App extends Component{
     return (
         <div className="box">
             <Header></Header>
+
             <Searchipt/>
             <Footer/>
         </div>
