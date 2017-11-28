@@ -78,9 +78,9 @@
                 <state relative-caret-position="0">
                   <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding>
-                    <marker date="1511845409090" expanded="true" signature="83:352" ph="{&quot;axios&quot;: &quot;^0.17.1&quot;...}" />
-                    <marker date="1511845409090" expanded="true" signature="367:670" ph="{&quot;build-css&quot;: &quot;node-sass-chokidar src/ -o src/&quot;...}" />
-                    <marker date="1511845409090" expanded="true" signature="693:912" ph="{&quot;node-sass&quot;: &quot;^4.7.2&quot;...}" />
+                    <marker date="1511851209501" expanded="true" signature="83:352" ph="{&quot;axios&quot;: &quot;^0.17.1&quot;...}" />
+                    <marker date="1511851209501" expanded="true" signature="367:528" ph="{&quot;build-css&quot;: &quot;node-sass-chokidar src/ -o src/&quot;...}" />
+                    <marker date="1511851209501" expanded="true" signature="765:958" ph="{&quot;node-sass&quot;: &quot;^4.7.2&quot;...}" />
                   </folding>
                 </state>
               </provider>
@@ -89,10 +89,13 @@
           <file leaf-file-name="Footer.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="157">
+                <state relative-caret-position="255">
                   <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
                   <folding>
-                    <marker date="1511849553249" expanded="true" signature="631:828" ph="{...}" />
+                    <marker date="1511851312926" expanded="true" signature="491:507" ph="{...}" />
+                    <marker date="1511851312926" expanded="true" signature="491:501" ph="{...}" />
+                    <marker date="1511851312926" expanded="true" signature="525:835" ph="{...}" />
+                    <marker date="1511851312926" expanded="true" signature="631:828" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -105,8 +108,8 @@
           <file leaf-file-name="Footer.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="679">
-                  <caret line="58" column="5" lean-forward="false" selection-start-line="52" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+                <state relative-caret-position="619">
+                  <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -118,7 +121,11 @@
                 <state relative-caret-position="0">
                   <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding>
-                    <marker date="1511845409090" expanded="true" signature="693:912" ph="{&quot;node-sass&quot;: &quot;^4.7.2&quot;...}" />
+                    <marker date="1511851209501" expanded="true" signature="367:528" ph="{&quot;build-css&quot;: &quot;node-sass-chokidar src/ -o src/&quot;...}" />
+                    <marker date="1511851209501" expanded="true" signature="765:770" ph="{&quot;node-sass&quot;: &quot;^4.7.2&quot;...}" />
+                    <marker date="1511851209501" expanded="true" signature="765:958" ph="{&quot;node-sass&quot;: &quot;^4.7.2&quot;...}" />
+                    <marker date="1511851209501" expanded="true" signature="801:954" ph="{&quot;target&quot;: &quot;http://m.mtime.cn&quot;...}" />
+                    <marker date="1511851209501" expanded="true" signature="889:930" ph="{&quot;^/Service&quot;: &quot;/Service&quot;...}" />
                   </folding>
                 </state>
               </provider>
@@ -387,12 +394,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511794028592</updated>
-      <workItem from="1511827516528" duration="10525000" />
+      <workItem from="1511827516528" duration="10723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10525000" />
+    <option name="totallyTimeSpent" value="10723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="156" y="71" width="1524" height="940" extended-state="0" />
@@ -511,15 +518,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1511845409090" expanded="true" signature="693:912" ph="{&quot;node-sass&quot;: &quot;^4.7.2&quot;...}" />
+            <marker date="1511851209501" expanded="true" signature="367:528" ph="{&quot;build-css&quot;: &quot;node-sass-chokidar src/ -o src/&quot;...}" />
+            <marker date="1511851209501" expanded="true" signature="765:770" ph="{&quot;node-sass&quot;: &quot;^4.7.2&quot;...}" />
+            <marker date="1511851209501" expanded="true" signature="765:958" ph="{&quot;node-sass&quot;: &quot;^4.7.2&quot;...}" />
+            <marker date="1511851209501" expanded="true" signature="801:954" ph="{&quot;target&quot;: &quot;http://m.mtime.cn&quot;...}" />
+            <marker date="1511851209501" expanded="true" signature="889:930" ph="{&quot;^/Service&quot;: &quot;/Service&quot;...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="58" column="5" lean-forward="false" selection-start-line="52" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="619">
+          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
           <folding />
         </state>
       </provider>
