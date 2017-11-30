@@ -1,0 +1,15 @@
+$base:100px;
+@function px2rem($px){
+  @return $px/$base *1rem;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+body,html{
+    font-size: 100px;
+}
+div{
+    font-size:px2rem(16px);
+}

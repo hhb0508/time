@@ -55,11 +55,11 @@ body,html{
 			line-height:px2rem(50px);
 			text-align:center;
 			display:inline-block;
-			a{
-				display:inline-block;
-				height:px2rem(50px);
-				color:#92b2bb;
-			}
+			color:#bbbbbb;
+		}
+		.active{
+			color:#fff;
+			border-bottom:3px solid #fff;
 		}
 	}
 }
